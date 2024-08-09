@@ -3,6 +3,7 @@ import Layout from "../../Components/Layout/Layout";
 import '../../assets/App.scss';
 import DataTable from "react-data-table-component";
 import Loader from '../../Components/Loader/Loader';
+import Salesupdatemodal from './Salesupdatemodal';
 
 // Sample data for the DataTable
 const sampleData = [
@@ -81,7 +82,7 @@ const Salesupdate = () => {
           </div>
         </div>
       )}
-      <Salesupdate isOpen={isSalesUpdateModal} toggle={toggleSalesUpdate}/>
+      <Salesupdatemodal isopen={isSalesUpdateModal} toggle={toggleSalesUpdate}/>
     </Layout>
   );
 };
