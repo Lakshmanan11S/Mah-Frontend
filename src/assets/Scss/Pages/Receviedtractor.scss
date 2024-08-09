@@ -1,0 +1,63 @@
+.Tractor-Recevied{
+    .first-heading{
+        height: 50px;
+    }
+    .first-section{
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .second-section{
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        font-size: 25px;
+        font-weight: bold;
+    }
+}
+
+@media(max-width:768px){
+    .Tractor-Recevied{
+        .first-heading{
+            height: 50px;
+        }
+        .first-section{
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            font-size: 15px;
+            font-weight: bold;
+        }
+        .second-section{
+            display: flex;
+            align-items: center;
+            justify-content: start;
+           
+          
+        }
+    }
+}
+
+@media(max-width:576px){
+    .Tractor-Recevied{
+        .first-heading{
+            height: 75px;
+        }
+        .first-section{
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            font-size: 15px;
+            font-weight: bold;
+        }
+        .second-section{
+            display: flex;
+            align-items: center;
+            justify-content: start;
+           
+          
+        }
+    }
+}
