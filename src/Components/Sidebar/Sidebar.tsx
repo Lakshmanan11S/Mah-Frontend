@@ -14,23 +14,9 @@ const Sidebar = () => {
       icon:<IoIosHome />
     },
     {
-      name:'PriceUpdate',
-      path:'/priceupdate',
-      icon:<MdPriceCheck />
-    },
-    {
-      name:'Drive list',
-      path:'/drivelist',
-      icon:<FaMotorcycle />
-    },
-    {
       name:'Tractor Received',
       path:'/receivedtractor',
       icon:<PiTractor />
-    },{
-      name:'Price',
-      path:'/price',
-      icon:<LuIndianRupee />
     },
     {
       name:'Sales Update',

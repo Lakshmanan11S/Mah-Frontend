@@ -1,20 +1,35 @@
 .Tractor-Recevied{
-    .first-heading{
-        height: 50px;
-    }
-    .first-section{
+    .first-heading {
         display: flex;
         align-items: center;
-        justify-content: end;
-        font-size: 25px;
+        justify-content: space-between;
+        padding: 30px;
+        background-color: #f8f9fa;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        font-size: 1.25rem;
+        color: #333;
+      }
+    
+      .first-section {
         font-weight: bold;
-    }
+      }
     .second-section{
         display: flex;
         align-items: center;
-        justify-content: end;
-        font-size: 25px;
+        justify-content:end;
+        font-size: 20px;
         font-weight: bold;
+    .btn{
+        border-radius: 4px;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .btn-primary{
+    background-color: #89d5f1;
+      border: none;
+    }
     }
 }
 
@@ -61,3 +76,9 @@
         }
     }
 }
+
+
+  
+
+
+

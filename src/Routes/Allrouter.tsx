@@ -1,9 +1,6 @@
 import Customerlist from "../Pages/Customerlist/Customerlist";
-import Drivelist from "../Pages/Drivelist/Drivelist";
 import Home from "../Pages/Home/Home";
 import Login from "../Pages/Login/Login";
-import Price from "../Pages/Price/Price";
-import Priceupdate from "../Pages/Priceupdate/Priceupdate";
 import Receivedtractor from "../Pages/Receivedtractor/Receivedtractor";
 import Register from "../Pages/Register/Register";
 import Salesupdate from "../Pages/Salesupdate/Salesupdate";
@@ -18,10 +15,7 @@ const publicRoutes=[
 
 const adminRoutes=[
   {path:'/home',element:<Home/>},
-  {path:'/priceupdate',element:<Priceupdate/>},
-  {path:'/drivelist',element:<Drivelist/>},
   {path:'/receivedtractor',element:<Receivedtractor/>},
-  {path:'/price',element:<Price/>},
   {path:'/salesupdate',element:<Salesupdate/>},
   {path:'/customerlist',element:<Customerlist/>}
 ]
@@ -29,7 +23,6 @@ const adminRoutes=[
 const privateRoutes=[
   {path:'/home',element:<Home/>},
   {path:'/receivedtractor',element:<Receivedtractor/>},
-  {path:'/price',element:<Price/>},
   {path:'/salesupdate',element:<Salesupdate/>},
   {path:'/customerlist',element:<Customerlist/>}
 ]
